@@ -1,43 +1,43 @@
 <!DOCTYPE html>
-<!-- saved from url=(0057)file:///home/wilsweb/Downloads/Responsive%20Website!.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="en">
+  <head>    
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./Responsive Website!_files/style.css">
   <link rel="stylesheet" href="./Responsive Website!_files/style(1).css">
-  <title>Responsive Website!</title>
+  <title>Restaurant Website</title>
 </head>
 
 <body>
 
   <div class="wrapper">
       <nav class="menu">
-          <button aria-expanded="true" aria-controls="menu-list">
+          <button aria-expanded="false" aria-controls="menu-list">
             <span class="open">☰</span>
             <span class="close">×</span>
             Menu
           </button>
           <ul id="menu-list">
             <li>
-              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Tacos</a>
+              <a href="#">Tacos</a>
             </li>
             <li>
-              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Beers</a>
+              <a href="#">Beers</a>
             </li>
             <li>
-              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Wines</a>
+              <a href="#">Wines</a>
             </li>
             <li>
-              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Desserts</a>
+              <a href="#">Desserts</a>
             </li>
             <li>
-              <a href="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/">Reservations</a>
+              <a href="#">Reservations</a>
             </li>
           </ul>
         </nav>
     <div class="top">
       <header class="hero">
-        <h1>Terry's Taco Joint</h1>
+        <h1>CHOP CHICKEN's Taco Joint</h1>
         <p>Pretty Good Tacos!</p>
       </header>
       <div class="cta cta1">
@@ -99,17 +99,6 @@
       <img src="./Responsive Website!_files/207x210" alt="">
     </section>
   </div>
-
-  <script>
-    const navButton = document.querySelector('button[aria-expanded]');
-
-    function toggleNav({ target }) {
-      const expanded = target.getAttribute('aria-expanded') === 'true' || false;
-      navButton.setAttribute('aria-expanded', !expanded);
-    }
-
-    navButton.addEventListener('click', toggleNav);
-  </script>
 
 
 
